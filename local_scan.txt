@@ -1,0 +1,10 @@
+# Nmap 7.94SVN scan initiated Mon Jun 23 13:19:16 2025 as: /usr/lib/nmap/nmap --privileged -sS -oN local_scan.txt 192.168.56.1
+Nmap scan report for 192.168.56.1
+Host is up (0.0015s latency).
+Not shown: 997 filtered tcp ports (no-response)
+PORT    STATE SERVICE
+135/tcp open  msrpc
+139/tcp open  netbios-ssn
+445/tcp open  microsoft-ds
+
+# Nmap done at Mon Jun 23 13:19:21 2025 -- 1 IP address (1 host up) scanned in 5.14 seconds
